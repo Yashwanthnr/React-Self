@@ -1,0 +1,17 @@
+.header{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.header .name{
+     text-decoration: underline;
+}
+.header .btn{
+    background-color: #dadada;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
