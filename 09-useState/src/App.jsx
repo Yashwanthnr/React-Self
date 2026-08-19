@@ -2,8 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 
 
-
-
 //! Counter Using useState
 // const App = () => {
 //   const [count, setcount] = useState(0);
@@ -28,8 +26,7 @@ import { useState } from 'react'
 //       <button onClick={decrease}>Decrease</button>
 //        <button onClick={jump5Count}>Jump By 5</button>
         
-//       </div>
-      
+//       </div>      
 //     </div>
 //   )
 // }
@@ -83,10 +80,9 @@ import { useState } from 'react'
 
 //! Batch Update
 
-
 const App = () => {
 
-  const [num, setNum] = useState(10)
+const [num, setNum] = useState(10)
 
 const btnClick=()=>{
   // setNum(num+1);
@@ -96,10 +92,7 @@ const btnClick=()=>{
   setNum(prev=>(prev+1));
   setNum(prev=>(prev+1));
   setNum(prev=>(prev+1));
-
-
 }
-
   return (
     <div>
       <h1>{num}</h1>
