@@ -40,7 +40,7 @@ const submitHandler=(e)=>{
         submitHandler(e);
       }} className='flex p-10 lg:w-1/2 flex-col items-start gap-6'>
 
-        <h1 className='font-bold font-bold text-3xl'>Add Notes</h1>
+        <h1 className='font-bold  text-3xl'>Add Notes</h1>
  
      {/* First Input */}
         <input value={title} onChange={(e)=>{
