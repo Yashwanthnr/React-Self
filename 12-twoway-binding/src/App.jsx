@@ -10,8 +10,7 @@ const App = () => {
     el.preventDefault(); 
     console.log("Form Submitted",title);
 
-    settitle('')
-    
+    settitle('') 
   }
 
   return (
