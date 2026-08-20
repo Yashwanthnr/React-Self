@@ -42,11 +42,13 @@ const submitHandler=(e)=>{
 
         <h1 className='font-bold  text-3xl'>Add Notes</h1>
  
+ 
      {/* First Input */}
         <input value={title} onChange={(e)=>{
           setTitle(e.target.value);
         }} className='px-5 w-full font-medium py-2 m border-2 rounded-2xl' type='text' placeholder='Enter Heading'></input>
    
+
     {/*Second input*/}
         <textarea value={detail} onChange={(e)=>{
           setDetail(e.target.value);
